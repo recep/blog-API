@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="blog" uuid="3c7d9f3a-784b-4930-b6e3-d22eddd8d645">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/blog</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="blog [2]" uuid="55313e5f-6544-420c-804e-7b4e81d7daf4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/cmd/blog</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="blog [3]" uuid="347e53d0-179b-4bf5-85f0-5e95d12cd3f9">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/database/blog.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
